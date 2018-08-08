@@ -1,0 +1,228 @@
+3.4.13 (Selective Steve)
+0de1dc8e78ac759e43ab6007cddb92e3eb9d31a3
+o:Sass::Tree::RootNode:@children[o:Sass::Tree::ImportNode:@imported_filenameI"libs/vars:ET;[ :@template0:
+@linei:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i:@offseti:
+@end_poso;;i;i:
+@fileI"sass/ie8.scss;	F:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@same_name_warningso:Set:
+@hash{ :
+@options{ :@imported_file0o;;I"libs/functions;	T;[ ;
+0;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@;0o;;I"libs/mixins;	T;[ ;
+0;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@;0o;;I"libs/skel;	T;[ ;
+0;i	;o;
+	;o;;i	;i;o;;i	;i;@
+;@;@;0o:Sass::Tree::CommentNode
+:@value[I"‡/*
+	Identity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/;	T:
+@type:normal;[ ;i;@o;
+;[I"/* List */;	T;;;[ ;i;@o:Sass::Tree::RuleNode:
+@rule[I"ul;	T:@parsed_ruleso:"Sass::Selector::CommaSequence:
+@members[o:Sass::Selector::Sequence;$[o:#Sass::Selector::SimpleSequence;$[o:Sass::Selector::Element	:
+@nameI"ul;	T:@namespace0;i:@filename0:
+@subject0:
+@sourceso;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;*0;i;*0:@selector_source_rangeo;
+	;o;;i;i;o;;i;i
+;@
+;@:
+@tabsi ;[o; ;![I"&.icons;	T;"o;#;$[o;%;$[o;&;$[o:Sass::Selector::Parent:@suffix0;i;*0o:Sass::Selector::Class;(I"
+icons;	T;i;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i;*0;i;*0;-o;
+	;o;;i;i;o;;i;i;@
+;@;.i ;[o; ;![I"li;	T;"o;#;$[o;%;$[o;&;$[o;'	;(I"li;	T;)0;i;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;*0;i;*0;-o;
+	;o;;i;i	;o;;i;i;@
+;@;.i ;[o; ;![I"a;	T;"o;#;$[o;%;$[o;&;$[o;'	;(I"a;	T;)0;i;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;*0;i;*0;-o;
+	;o;;i;i
+;o;;i;i;@
+;@;.i ;[o:Sass::Tree::PropNode;([I"-ms-behavior;	T;o: Sass::Script::Tree::Funcall;(I"url;	T:
+@args[o: Sass::Script::Tree::Literal	;o: Sass::Script::Value::String;I"assets/js/PIE.htc;	T;:string;@;i;o;
+	;o;;i;i;o;;i;i0;@
+;@;*@
+:@keywordso:Sass::Util::NormalizedMap:@key_strings{ :	@map{ :@splat0:@kwarg_splat0;i;o;
+	;o;;i;i;o;;i;i1;@
+;@;*@
+;@;.i :@prop_syntax:new;[ ;i;o;
+	;o;;i;i;o;;i;i1;@
+;@:@name_source_rangeo;
+	;@Ž;o;;i;i;@
+;@:@value_source_rangeo;
+	;o;;i;i;@;@
+;@;@o; ;![I"
+&:before;	T;"o;#;$[o;%;$[o;&;$[o;/;00;i;*0o:Sass::Selector::Pseudo:@syntactic_type:
+class;(I"before;	T:	@arg0:@selector0;i;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;*0;i;*0;-o;
+	;o;;i;i;o;;i;i;@
+;@;.i ;[o;2;([I"text-align;	T;o;5;o;6;I"center;	T;:identifier;@;i;o;
+	;o;;i;i;o;;i;i;@
+;@;.i ;>;?;[ ;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@o;
+	;@´;o;;i;i;@
+;@;Ao;
+	;o;;i;i;@µ;@
+;@;@o;2;([I"font-size;	T;o;5;o;6;I"	26px;	T;;G;@;i;o;
+	;o;;i;i;o;;i;i;@
+;@;.i ;>;?;[ ;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@o;
+	;@Å;o;;i;i;@
+;@;Ao;
+	;o;;i;i;@Æ;@
+;@;@;i;o;
+	;@¦;o;;i;i;@
+;@:@has_childrenT;@;i;o;
+	;@|;o;;i;i;@
+;@;HT;@;i;o;
+	;@h;o;;i;i;@
+;@;HT;@;i;o;
+	;@T;o;;i;i;@
+;@;HT;@;i;o;
+	;@?;o;;i;i
+;@
+;@;HT;@o;
+;[I"/* Main */;	T;;;[ ;i";@o; ;![I"
+#main;	T;"o;#;$[o;%;$[o;&;$[o:Sass::Selector::Id;(I"	main;	T;i$;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i$;*0;i$;*0;-o;
+	;o;;i$;i;o;;i$;i
+;@
+;@;.i ;[o;2;([I"-ms-behavior;	T;o;3;(I"url;	T;4[o;5	;o;6;I"assets/js/PIE.htc;	T;;7;@;i%;o;
+	;o;;i%;i;o;;i%;i-;@
+;@;*@
+;8o;9;:{ ;;{ ;<0;=0;i%;o;
+	;o;;i%;i;o;;i%;i.;@
+;@;*@
+;@;.i ;>;?;[ ;i%;o;
+	;o;;i%;i;o;;i%;i.;@
+;@;@o;
+	;@;o;;i%;i;@
+;@;Ao;
+	;o;;i%;i;@;@
+;@;@o; ;![I".avatar;	T;"o;#;$[o;%;$[o;&;$[o;1;(I"avatar;	T;i';*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i';*0;i';*0;-o;
+	;o;;i';i;o;;i';i;@
+;@;.i ;[o; ;![I"img;	T;"o;#;$[o;%;$[o;&;$[o;'	;(I"img;	T;)0;i(;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i	;0;0;i(;*0;i(;*0;-o;
+	;o;;i(;i	;o;;i(;i
+;@
+;@;.i ;[o;2;([I"-ms-behavior;	T;o;3;(I"url;	T;4[o;5	;o;6;I"assets/js/PIE.htc;	T;;7;@;i);o;
+	;o;;i);i;o;;i);i/;@
+;@;*@
+;8o;9;:{ ;;{ ;<0;=0;i);o;
+	;o;;i);i;o;;i);i0;@
+;@;*@
+;@;.i ;>;?;[ ;i);o;
+	;o;;i);i
+;o;;i);i0;@
+;@;@o;
+	;@C;o;;i);i;@
+;@;Ao;
+	;o;;i);i;@D;@
+;@;@;i(;o;
+	;@,;o;;i(;i
+;@
+;@;HT;@;i';o;
+	;@;o;;i';i;@
+;@;HT;@;i$;o;
+	;@ê;o;;i$;i
+;@
+;@;HT;@o;
+;[I"/* Footer */;	T;;;[ ;i.;@o; ;![I"#footer;	T;"o;#;$[o;%;$[o;&;$[o;I;(I"footer;	T;i0;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i0;*0;i0;*0;-o;
+	;o;;i0;i;o;;i0;i;@
+;@;.i ;[o;2;([I"
+color;	T;o;5;o;6;I"	#fff;	T;;G;@;i1;o;
+	;o;;i1;i;o;;i1;i;@
+;@;.i ;>;?;[ ;i1;o;
+	;o;;i1;i;o;;i1;i;@
+;@;@o;
+	;@r;o;;i1;i
+;@
+;@;Ao;
+	;o;;i1;i;@s;@
+;@;@o; ;![I".copyright;	T;"o;#;$[o;%;$[o;&;$[o;1;(I"copyright;	T;i3;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i3;*0;i3;*0;-o;
+	;o;;i3;i;o;;i3;i;@
+;@;.i ;[o; ;![I"li;	T;"o;#;$[o;%;$[o;&;$[o;'	;(I"li;	T;)0;i4;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i4;*0;i4;*0;-o;
+	;o;;i4;i	;o;;i4;i;@
+;@;.i ;[o;2;([I"border-left;	T;o;5;o;6;I"solid 1px #fff;	T;;G;@;i5;o;
+	;o;;i5;i;o;;i5;i%;@
+;@;.i ;>;?;[ ;i5;o;
+	;o;;i5;i
+;o;;i5;i%;@
+;@;@o;
+	;@«;o;;i5;i;@
+;@;Ao;
+	;o;;i5;i;@¬;@
+;@;@;i4;o;
+	;@;o;;i4;i;@
+;@;HT;@;i3;o;
+	;@‰;o;;i3;i;@
+;@;HT;@;i0;o;
+	;@d;o;;i0;i;@
+;@;HT;@;
+I"–@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+
+/*
+	Identity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* List */
+
+	ul {
+		&.icons {
+			li {
+				a {
+					-ms-behavior: url('assets/js/PIE.htc');
+
+					&:before {
+						text-align: center;
+						font-size: 26px;
+					}
+				}
+			}
+		}
+	}
+
+/* Main */
+
+	#main {
+		-ms-behavior: url('assets/js/PIE.htc');
+
+		.avatar {
+			img {
+				-ms-behavior: url('assets/js/PIE.htc');
+			}
+		}
+	}
+
+/* Footer */
+
+	#footer {
+		color: #fff;
+
+		.copyright {
+			li {
+				border-left: solid 1px #fff;
+			}
+		}
+	};	T;i;o;
+	;o;;i;i;o;;i;i;@
+;@;HT;@
