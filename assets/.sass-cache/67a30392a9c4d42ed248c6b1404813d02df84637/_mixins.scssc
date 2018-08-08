@@ -1,0 +1,195 @@
+3.4.13 (Selective Steve)
+6c86a9ca520c6bdcd0c702d3d1d9c35c03997ea0
+o:Sass::Tree::RootNode:@children[	o:Sass::Tree::CommentNode
+:@value[I"/*/ Makes an element's :before pseudoelement a FontAwesome icon.
+ */ @param {string} $content Optional content value to use. */:ET:
+@type:silent;[ :
+@linei:
+@options{ o:Sass::Tree::MixinDefNode
+:
+@nameI"	icon;	T:
+@args[[o:!Sass::Script::Tree::Variable;I"content;	T:@underscored_nameI"content;	T;i:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i:@offseti:
+@end_poso;;i;i:
+@fileI"^/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets/sass/libs/_mixins.scss;	T:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@same_name_warningso:Set:
+@hash{ :@filename@;
+@o: Sass::Script::Tree::Literal	;o:Sass::Script::Value::Bool;F;
+@;o;	;o;;i>;i;o;;i>;i";I"sass/components/_list.scss;	F;o;;I"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T;I"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T;o;; { ;i;o;	;o;;i;i;o;;i;i!;@;@;!@:@splat0;[o:Sass::Tree::PropNode;[I"text-decoration;	T;o;";o: Sass::Script::Value::String;I"	none;	T;
+:identifier;
+@;i
+;o;	;o;;i
+;i;o;;i
+;i;@;@:
+@tabsi :@prop_syntax:new;[ ;i
+;o;	;o;;i
+;i;o;;i
+;i;@;@:@name_source_rangeo;	;@6;o;;i
+;i;@;@:@value_source_rangeo;	;o;;i
+;i;@7;@;@;
+@o:Sass::Tree::RuleNode:
+@rule[I"
+&:before;	T:@parsed_ruleso:"Sass::Selector::CommaSequence:
+@members[o:Sass::Selector::Sequence;1[o:#Sass::Selector::SimpleSequence;1[o:Sass::Selector::Parent:@suffix0;i;!0o:Sass::Selector::Pseudo:@syntactic_type:
+class;I"before;	T:	@arg0:@selector0;i;!0:
+@subject0:
+@sourceso;; { ;o;	;o;;i;i;o;;i;i;0;0;i;!0;i;!0:@selector_source_rangeo;	;o;;i;i;o;;i;i;@;@;(i ;[u:Sass::Tree::IfNode˜[o:!Sass::Script::Tree::Variable:
+@nameI"content:ET:@underscored_nameI"content;T:
+@linei:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;	i:@offseti:
+@end_poso;
+;	i;i:
+@fileI"^/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets/sass/libs/_mixins.scss;T:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;T:@same_name_warningso:Set:
+@hash{ :@filename@:
+@options{ 0[o:Sass::Tree::PropNode;[I"content;T:@valueo; ;I"content;T;I"content;T;	i;
+o;	;o;
+;	i;i;o;
+;	i;i;@;@
+;@;@:
+@tabsi :@prop_syntax:new:@children[ ;	i;
+o;	;o;
+;	i;i	;o;
+;	i;i;@;@
+:@name_source_rangeo;	;@;o;
+;	i;i;@;@
+:@value_source_rangeo;	;o;
+;	i;i;@ ;@;@
+;@o;%;[I"-moz-osx-font-smoothing;	T;o;";o;&;I"grayscale;	T;
+;';
+@;i;o;	;o;;i;i!;o;;i;i*;@;@;(i ;);*;[ ;i;o;	;o;;i;i;o;;i;i*;@;@;+o;	;@];o;;i;i;@;@;,o;	;o;;i;i!;@^;@;@;
+@o;%;[I"-webkit-font-smoothing;	T;o;";o;&;I"antialiased;	T;
+;';
+@;i;o;	;o;;i;i ;o;;i;i+;@;@;(i ;);*;[ ;i;o;	;o;;i;i;o;;i;i+;@;@;+o;	;@n;o;;i;i;@;@;,o;	;o;;i;i ;@o;@;@;
+@o;%;[I"font-family;	T;o;";o;&;I"FontAwesome;	T;
+;';
+@;i;o;	;o;;i;i;o;;i;i ;@;@;(i ;);*;[ ;i;o;	;o;;i;i;o;;i;i ;@;@;+o;	;@;o;;i;i;@;@;,o;	;o;;i;i;@{;@;@;
+@o;%;[I"font-style;	T;o;";o;&;I"normal;	T;
+;';
+@;i;o;	;o;;i;i;o;;i;i;@;@;(i ;);*;[ ;i;o;	;o;;i;i;o;;i;i;@;@;+o;	;@‹;o;;i;i;@;@;,o;	;o;;i;i;@Œ;@;@;
+@o;%;[I"font-weight;	T;o;";o;&;I"normal;	T;
+;';
+@;i;o;	;o;;i;i;o;;i;i;@;@;(i ;);*;[ ;i;o;	;o;;i;i;o;;i;i;@;@;+o;	;@œ;o;;i;i;@;@;,o;	;o;;i;i;@;@;@;
+@o;%;[I"text-transform;	T;o;";o;&;I"none !important;	T;
+;';
+@;i;o;	;o;;i;i;o;;i;i';@;@;(i ;);*;[ ;i;o;	;o;;i;i;o;;i;i';@;@;+o;	;@­;o;;i;i;@;@;,o;	;o;;i;i;@®;@;@;
+@;i;o;	;@N;o;;i;i;@;@:@has_childrenT;
+@;i;o;	;o;;i;i;o;;i;i#;@;@;?T;
+@o;
+;[I"H/*/ Applies padding to an element, taking the current element-margin value into account.
+ */ @param {mixed} $tb Top/bottom padding.
+ */ @param {mixed} $lr Left/right padding.
+ */ @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)
+ */ @param {bool} $important If true, adds !important. */;	T;
+;;[ ;i;
+@o;
+;I"padding;	T;[	[o;;I"tb;	T;I"tb;	T;i";o;	;o;;i";i;o;;i";i;@;@;!@;
+@0[o;;I"lr;	T;I"lr;	T;i";o;	;o;;i";i;o;;i";i;@;@;!@;
+@0[o;;I"pad;	T;I"pad;	T;i";o;	;o;;i";i;o;;i";i#;@;@;!@;
+@o:$Sass::Script::Tree::ListLiteral:@elements[	o;"	;o: Sass::Script::Value::Number	;i :@numerator_units[ :@denominator_units[ ;
+@;i";o;	;o;;i";i&;o;;i";i';@;@;!@o;"	;o;B
+;i ;C[ ;D@Ù:@originalI"0;	F;
+@;i";o;	;o;;i";i(;o;;i";i);@;@;!@o;"	;o;B
+;i ;C[ ;D@Ù;EI"0;	F;
+@;i";o;	;o;;i";i*;o;;i";i+;@;@;!@o;"	;o;B
+;i ;C[ ;D@Ù;EI"0;	F;
+@;i";o;	;o;;i";i,;o;;i";i-;@;@;!@:@separator:
+comma;i";o;	;o;;i";i&;o;;i";i';@;@;!@;
+@[o;;I"important;	T;I"important;	T;i";o;	;o;;i";i0;o;;i";i:;@;@;!@;
+@o;"	;o:Sass::Script::Value::Null;0;
+@;o;	;o;;i%;i;o;;i%;i>;I"sass/libs/_skel.scss;	F;o;;I"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T;I"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T;o;; { ;i";o;	;o;;i";i<;o;;i";i@;@;@;!@;$0;[u;>w[o:!Sass::Script::Tree::Variable:
+@nameI"important:ET:@underscored_nameI"important;T:
+@linei$:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;	i$:@offseti:
+@end_poso;
+;	i$;i:
+@fileI"^/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets/sass/libs/_mixins.scss;T:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;T:@same_name_warningso:Set:
+@hash{ :@filename@:
+@options{ 0[o:Sass::Tree::VariableNode
+;I"important;T:
+@expro: Sass::Script::Tree::Literal	:@valueo: Sass::Script::Value::String;I"!important;T:
+@type:string;@;	i%;
+o;	;o;
+;	i%;i;o;
+;	i%;i ;@;@
+;@:
+@guarded0:@global0:@children[ ;	i%;
+o;	;o;
+;	i%;i	;o;
+;	i%;i ;@;@
+;@o;%;[I"padding;	T;o:&Sass::Script::Tree::Interpolation:@beforeo;@;A[	o:"Sass::Script::Tree::Operation:@operand1o;;I"tb;	T;I"tb;	T;i(;o;	;o;;i(;i;o;;i(;i;@;@;!@;
+@:@operand2o: Sass::Script::Tree::Funcall;I"nth;	T;[o;;I"pad;	T;I"pad;	T;i(;o;	;o;;i(;i;o;;i(;i;@;@;!@;
+@o;"	;o;B
+;i;C[ ;D@Ù;EI"1;	F;
+@;i(;o;	;o;;i(;i ;o;;i(;i!;@;@;!@:@keywordso:Sass::Util::NormalizedMap:@key_strings{ :	@map{ ;$0:@kwarg_splat0;i(;o;	;o;;i(;i;o;;i(;i";@;@;!@;
+@:@operator:	plus;i(;o;	;@;o;;i(;i";@;@;!@;
+@o;K;Lo;;I"lr;	T;I"lr;	T;i(;o;	;o;;i(;i%;o;;i(;i(;@;@;!@;
+@;Mo;N;I"nth;	T;[o;;I"pad;	T;I"pad;	T;i(;o;	;o;;i(;i/;o;;i(;i3;@;@;!@;
+@o;"	;o;B
+;i;C[ ;D@Ù;EI"2;	F;
+@;i(;o;	;o;;i(;i4;o;;i(;i5;@;@;!@;Oo;P;Q{ ;R{ ;$0;S0;i(;o;	;o;;i(;i+;o;;i(;i6;@;@;!@;
+@;T;U;i(;o;	;@6;o;;i(;i6;@;@;!@;
+@o;N;I"max;	T;[o;"	;o;B
+;f0.1;C[I"em;	T;D[ ;EI"
+0.1em;	F;
+@;i(;o;	;o;;i(;i<;o;;i(;iA;@;@;!@o;K;Lo;K;Lo;;I"tb;	T;I"tb;	T;i(;o;	;o;;i(;iC;o;;i(;iF;@;@;!@;
+@;Mo;N;I"
+_size;	T;[o;"	;o;&;I"element-margin;	T;
+;';
+@;i(;o;	;o;;i(;iO;o;;i(;i];@;@;!@;Oo;P;Q{ ;R{ ;$0;S0;i(;o;	;o;;i(;iI;o;;i(;i^;@;@;!@;
+@;T:
+minus;i(;o;	;@c;o;;i(;i_;@;@;!@;
+@;Mo;N;I"nth;	T;[o;;I"pad;	T;I"pad;	T;i(;o;	;o;;i(;ie;o;;i(;ii;@;@;!@;
+@o;"	;o;B
+;i;C[ ;D@Ù;EI"3;	F;
+@;i(;o;	;o;;i(;ij;o;;i(;ik;@;@;!@;Oo;P;Q{ ;R{ ;$0;S0;i(;o;	;o;;i(;ia;o;;i(;il;@;@;!@;
+@;T;U;i(;o;	;@c;o;;i(;il;@;@;!@;
+@;Oo;P;Q{ ;R{ ;$0;S0;i(;o;	;o;;i(;i8;o;;i(;im;@;@;!@;
+@o;K;Lo;;I"lr;	T;I"lr;	T;i(;o;	;o;;i(;io;o;;i(;ir;@;@;!@;
+@;Mo;N;I"nth;	T;[o;;I"pad;	T;I"pad;	T;i(;o;	;o;;i(;iy;o;;i(;i};@;@;!@;
+@o;"	;o;B
+;i	;C[ ;D@Ù;EI"4;	F;
+@;i(;o;	;o;;i(;i~;o;;i(;i;@;@;!@;Oo;P;Q{ ;R{ ;$0;S0;i(;o;	;o;;i(;iu;o;;i(;i{;@;@;!@;
+@;T;U;i(;o;	;@™;o;;i(;i{;@;@;!@;
+@;F:
+space;i(;o;	;o;;i(;i;o;;i(;i};@;@;!@;
+@:	@mido;;I"important;	T;I"important;	T;i(;o;	;o;;i(;i;o;;i(;i‰;@;@;!@;
+@:@after0:@whitespace_beforeiâ:@whitespace_after0:@originally_textF:@warn_for_colorF;i(;o;	;@´;o;;i(;iŠ;@;@;!@;
+@;(i ;);*;[ ;i(;o;	;o;;i(;i;o;;i(;iŠ;@;@;+o;	;@À;o;;i(;i;@;@;,o;	;o;;i(;i;@Á;@;@;
+@;i";o;	;o;;i";i;o;;i";iB;@;@;?T;
+@:@templateI"ô/// Makes an element's :before pseudoelement a FontAwesome icon.
+/// @param {string} $content Optional content value to use.
+@mixin icon($content: false) {
+
+	text-decoration: none;
+
+	&:before {
+
+		@if $content {
+			content: $content;
+		}
+
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+
+	}
+
+}
+
+/// Applies padding to an element, taking the current element-margin value into account.
+/// @param {mixed} $tb Top/bottom padding.
+/// @param {mixed} $lr Left/right padding.
+/// @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)
+/// @param {bool} $important If true, adds !important.
+@mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {
+
+	@if $important {
+		$important: '!important';
+	}
+
+	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
+
+};	T;i;o;	;o;;i;i;o;;i;i;@;@;?T;
+@
