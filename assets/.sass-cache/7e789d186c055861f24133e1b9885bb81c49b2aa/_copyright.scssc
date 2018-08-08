@@ -1,0 +1,11 @@
+3.4.13 (Selective Steve)
+da39a3ee5e6b4b0d3255bfef95601890afd80709
+o:Sass::Tree::RootNode
+:@children[ :@templateI" :ET:
+@linei:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;	i:@offseti:
+@end_poso;
+;	i;i:
+@fileI" sass/layout/_copyright.scss;F:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;T:@same_name_warningso:Set:
+@hash{ :
+@options{ 
