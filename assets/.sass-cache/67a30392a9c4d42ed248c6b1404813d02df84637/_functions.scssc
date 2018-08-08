@@ -1,0 +1,129 @@
+3.4.13 (Selective Steve)
+4f1e4e3e65837ef26d6df42487ce0ee6d9a3c4cb
+o:Sass::Tree::RootNode:@children[o:Sass::Tree::CommentNode
+:@value[I"`/*/ Gets a duration value.
+ */ @param {string} $keys Key(s).
+ */ @return {string} Value. */:ET:
+@type:silent;[ :
+@linei:
+@options{ o:Sass::Tree::FunctionNode
+:
+@nameI"_duration;	T:
+@args[ :@splato:!Sass::Script::Tree::Variable;I"	keys;	T:@underscored_nameI"	keys;	T;i	:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i	:@offseti:
+@end_poso;;i	;i:
+@fileI"a/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets/sass/libs/_functions.scss;	T:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@same_name_warningso:Set:
+@hash{ :@filename@;
+@;[o:Sass::Tree::ReturnNode
+:
+@expro: Sass::Script::Tree::Funcall;I"val;	T;[o;;I"
+duration;	T;I"
+duration;	T;i
+;o;	;o;;i
+;i;o;;i
+;i;@;@;"@;
+@:@keywordso:Sass::Util::NormalizedMap:@key_strings{ :	@map{ ;o;;I"	keys;	T;I"	keys;	T;i
+;o;	;o;;i
+;i;o;;i
+;i#;@;@;"@;
+@:@kwarg_splat0;i
+;o;	;o;;i
+;i;o;;i
+;i';@;@;"@;
+@;[ ;i
+;o;	;o;;i
+;i;o;;i
+;i';@;@;
+@;i	;o;	;o;;i	;i;o;;i	;i$;@;@:@has_childrenT;
+@o;
+;[I"\/*/ Gets a font value.
+ */ @param {string} $keys Key(s).
+ */ @return {string} Value. */;	T;
+;;[ ;i
+;
+@o;
+;I"
+_font;	T;[ ;o;;I"	keys;	T;I"	keys;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;[o;#
+;$o;%;I"val;	T;[o;;I"	font;	T;I"	font;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;&o;';({ ;){ ;o;;I"	keys;	T;I"	keys;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;*0;i;o;	;o;;i;i;o;;i;i#;@;@;"@;
+@;[ ;i;o;	;o;;i;i;o;;i;i#;@;@;
+@;i;o;	;o;;i;i;o;;i;i ;@;@;+T;
+@o;
+;[I"\/*/ Gets a misc value.
+ */ @param {string} $keys Key(s).
+ */ @return {string} Value. */;	T;
+;;[ ;i;
+@o;
+;I"
+_misc;	T;[ ;o;;I"	keys;	T;I"	keys;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;[o;#
+;$o;%;I"val;	T;[o;;I"	misc;	T;I"	misc;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;&o;';({ ;){ ;o;;I"	keys;	T;I"	keys;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;*0;i;o;	;o;;i;i;o;;i;i#;@;@;"@;
+@;[ ;i;o;	;o;;i;i;o;;i;i#;@;@;
+@;i;o;	;o;;i;i;o;;i;i ;@;@;+T;
+@o;
+;[I"_/*/ Gets a palette value.
+ */ @param {string} $keys Key(s).
+ */ @return {string} Value. */;	T;
+;;[ ;i;
+@o;
+;I"
+_palette;	T;[ ;o;;I"	keys;	T;I"	keys;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;[o;#
+;$o;%;I"val;	T;[o;;I"palette;	T;I"palette;	T;i;o;	;o;;i;i;o;;i;i;@;@;"@;
+@;&o;';({ ;){ ;o;;I"	keys;	T;I"	keys;	T;i;o;	;o;;i;i;o;;i;i";@;@;"@;
+@;*0;i;o;	;o;;i;i;o;;i;i&;@;@;"@;
+@;[ ;i;o;	;o;;i;i;o;;i;i&;@;@;
+@;i;o;	;o;;i;i;o;;i;i#;@;@;+T;
+@o;
+;[I"\/*/ Gets a size value.
+ */ @param {string} $keys Key(s).
+ */ @return {string} Value. */;	T;
+;;[ ;i";
+@o;
+;I"
+_size;	T;[ ;o;;I"	keys;	T;I"	keys;	T;i%;o;	;o;;i%;i;o;;i%;i;@;@;"@;
+@;[o;#
+;$o;%;I"val;	T;[o;;I"	size;	T;I"	size;	T;i&;o;	;o;;i&;i;o;;i&;i;@;@;"@;
+@;&o;';({ ;){ ;o;;I"	keys;	T;I"	keys;	T;i&;o;	;o;;i&;i;o;;i&;i;@;@;"@;
+@;*0;i&;o;	;o;;i&;i;o;;i&;i#;@;@;"@;
+@;[ ;i&;o;	;o;;i&;i;o;;i&;i#;@;@;
+@;i%;o;	;o;;i%;i;o;;i%;i ;@;@;+T;
+@:@templateI"ò/// Gets a duration value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _duration($keys...) {
+	@return val($duration, $keys...);
+}
+
+/// Gets a font value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _font($keys...) {
+	@return val($font, $keys...);
+}
+
+/// Gets a misc value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _misc($keys...) {
+	@return val($misc, $keys...);
+}
+
+/// Gets a palette value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _palette($keys...) {
+	@return val($palette, $keys...);
+}
+
+/// Gets a size value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _size($keys...) {
+	@return val($size, $keys...);
+};	T;i;o;	;o;;i;i;o;;i;i;@;@;+T;
+@
