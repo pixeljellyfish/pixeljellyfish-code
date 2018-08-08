@@ -1,0 +1,525 @@
+3.4.13 (Selective Steve)
+b999e57d815e9da05839233b4d901471202b31af
+o:Sass::Tree::RootNode:@children[o:Sass::Tree::ImportNode:@imported_filenameI"../libs/vars:ET;[ :@template0:
+@linei:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i:@offseti:
+@end_poso;;i;i:
+@fileI"sass/base/_page.scss;	F:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@same_name_warningso:Set:
+@hash{ :
+@options{ :@imported_file0o;;I"../libs/functions;	T;[ ;
+0;i;o;
+	;o;;i;i;o;;i;i!;@
+;@;@;0o;;I"../libs/mixins;	T;[ ;
+0;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@;0o:Sass::Tree::CommentNode
+:@value[I"•/*/
+ */ Identity by HTML5 UP
+ */ html5up.net | @n33co
+ */ Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ */ */;	T:
+@type:silent;[ ;i
+;@o;
+;[I"/* Basic */;	T;:normal;[ ;i;@o;
+;[I"0/* Ensures page width is always >=320px. */;	T;;;[ ;i;@o:Sass::Tree::MixinNode:
+@nameI"breakpoint;	T:
+@args[o: Sass::Script::Tree::Literal	;o: Sass::Script::Value::String;I"xsmall;	T;:identifier;@;i;o;
+	;o;;i;i;o;;i;i";@
+;@:@filename@
+:@keywordso:Sass::Util::NormalizedMap:@key_strings{ :	@map{ :@splat0:@kwarg_splat0;[o:Sass::Tree::RuleNode:
+@rule[I"html, body;	T:@parsed_ruleso:"Sass::Selector::CommaSequence:
+@members[o:Sass::Selector::Sequence;2[o:#Sass::Selector::SimpleSequence;2[o:Sass::Selector::Element	;"I"	html;	T:@namespace0;i;'0:
+@subject0:
+@sourceso;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i;'0o;3;2[o;4;2[o;5	;"I"	body;	T;60;i;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;'0;i;'0:@selector_source_rangeo;
+	;o;;i;i	;o;;i;i;@
+;@:
+@tabsi ;[o:Sass::Tree::PropNode;"[I"min-width;	T;o;$;o;%;I"
+320px;	T;;&;@;i;o;
+	;o;;i;i;o;;i;i;@
+;@;:i :@prop_syntax:new;[ ;i;o;
+	;o;;i;i
+;o;;i;i;@
+;@:@name_source_rangeo;
+	;@c;o;;i;i;@
+;@:@value_source_rangeo;
+	;o;;i;i;@d;@
+;@;@;i;o;
+	;@U;o;;i;i;@
+;@:@has_childrenT;@;i;o;
+	;o;;i;i;o;;i;i$;@
+;@;@;@To;.;/[I"	body;	T;0o;1;2[o;3;2[o;4;2[o;5	;"I"	body;	T;60;i;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i;'0;i;'0;9o;
+	;o;;i;i;o;;i;i;@
+;@;:i ;[o;
+;[I"n/* Prevents animation/transition "flicker" on page load.
+ * Automatically added/removed by js/main.js. */;	T;;;[ ;i;@o;.;/[I"&.is-loading;	T;0o;1;2[o;3;2[o;4;2[o:Sass::Selector::Parent:@suffix0;i;'0o:Sass::Selector::Class;"I"is-loading;	T;i;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;'0;i;'0;9o;
+	;o;;i;i	;o;;i;i;@
+;@;:i ;[o;.;/[I"*, *:before, *:after;	T;0o;1;2[o;3;2[o;4;2[o:Sass::Selector::Universal;60;i;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;'0o;3;2[o;4;2[o;D;60;i;'0o:Sass::Selector::Pseudo:@syntactic_type:
+class;"I"before;	T:	@arg0:@selector0;i;'0;70;8o;;{ ;o;
+	;o;;i;i	;o;;i;i;0;0;i;'0o;3;2[o;4;2[o;D;60;i;'0o;E;F;G;"I"
+after;	T;H0;I0;i;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;'0;i;'0;9o;
+	;o;;i;i
+;o;;i;i;@
+;@;:i ;[o;!;"I"vendor;	T;#[o;$	;o;%;I"animation;	T;:string;@;i;o;
+	;o;;i;i;o;;i;i&;@
+;@;'@
+o;$	;o;%;I"none !important;	T;;J;@;i;o;
+	;o;;i;i(;o;;i;i9;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;[ ;i;o;
+	;o;;i;i;o;;i;i:;@
+;@;@o;!;"I"vendor;	T;#[o;$	;o;%;I"transition;	T;;J;@;i ;o;
+	;o;;i ;i;o;;i ;i';@
+;@;'@
+o;$	;o;%;I"none !important;	T;;J;@;i ;o;
+	;o;;i ;i);o;;i ;i:;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;[ ;i ;o;
+	;o;;i ;i;o;;i ;i;;@
+;@;@;i;o;
+	;@¾;o;;i;i;@
+;@;@T;@;i;o;
+	;@“;o;;i;i;@
+;@;@T;@;i;o;
+	;@;o;;i;i;@
+;@;@T;@o;.;/[I"	html;	T;0o;1;2[o;3;2[o;4;2[o;5	;"I"	html;	T;60;i&;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i&;'0;i&;'0;9o;
+	;o;;i&;i;o;;i&;i;@
+;@;:i ;[o;;;"[I"height;	T;o;$;o;%;I"	100%;	T;;&;@;i';o;
+	;o;;i';i;o;;i';i;@
+;@;:i ;<;=;[ ;i';o;
+	;o;;i';i;o;;i';i;@
+;@;>o;
+	;@;o;;i';i;@
+;@;?o;
+	;o;;i';i;@;@
+;@;@;i&;o;
+	;@;o;;i&;i;@
+;@;@T;@o;.;/[I"	body;	T;0o;1;2[o;3;2[o;4;2[o;5	;"I"	body;	T;60;i*;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i*;'0;i*;'0;9o;
+	;o;;i*;i;o;;i*;i;@
+;@;:i ;[o;;;"[I"height;	T;o;$;o;%;I"	100%;	T;;&;@;i+;o;
+	;o;;i+;i;o;;i+;i;@
+;@;:i ;<;=;[ ;i+;o;
+	;o;;i+;i;o;;i+;i;@
+;@;>o;
+	;@9;o;;i+;i;@
+;@;?o;
+	;o;;i+;i;@:;@
+;@;@o;;;"[I"background-color;	T;o: Sass::Script::Tree::Funcall;"I"
+_palette;	T;#[o;$	;o;%;I"bg;	T;;&;@;i,;o;
+	;o;;i,;i#;o;;i,;i%;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;i,;o;
+	;o;;i,;i;o;;i,;i&;@
+;@;'@
+;@;:i ;<;=;[ ;i,;o;
+	;o;;i,;i;o;;i,;i&;@
+;@;>o;
+	;@S;o;;i,;i;@
+;@;?o;
+	;o;;i,;i;@T;@
+;@;@o;!;"I"vendor;	T;#[o;$	;o;%;I"background-image;	T;;J;@;i-;o;
+	;o;;i-;i;o;;i-;i*;@
+;@;'@
+o:$Sass::Script::Tree::ListLiteral:@elements[o;$	;o;%;I"url("images/overlay.png");	T;;J;@;i.;o;
+	;o;;i.;i	;o;;i.;i$;@
+;@;'@
+o:,Sass::Script::Tree::StringInterpolation:@beforeo;$	;o;%;I"linear-gradient(60deg, ;	T;;J;@;i/;o;
+	;o;;i/;i	;o;;i/;i#;@
+;@;'@
+:	@mido;K;"I"transparentize;	T;#[o;K;"I"
+_palette;	T;#[o;$	;o;%;I"accent1;	T;;&;@;i/;o;
+	;o;;i/;i;;o;;i/;iB;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;i/;o;
+	;o;;i/;i2;o;;i/;iC;@
+;@;'@
+;@o;$	;o: Sass::Script::Value::Number
+;f0.5:@numerator_units[ :@denominator_units[ :@originalI"0.5;	F;@;i/;o;
+	;o;;i/;iE;o;;i/;iH;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;i/;o;
+	;o;;i/;i#;o;;i/;iI;@
+;@;'@
+;@:@aftero;N;Oo;$	;o;%;I"
+ 5%, ;	T;;J;@;i/;o;
+	;o;;i/;iJ;o;;i/;iQ;@
+;@;'@
+;Po;K;"I"transparentize;	T;#[o;K;"I"
+_palette;	T;#[o;$	;o;%;I"accent2;	T;;&;@;i/;o;
+	;o;;i/;ii;o;;i/;ip;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;i/;o;
+	;o;;i/;i`;o;;i/;iq;@
+;@;'@
+;@o;$	;o;Q
+;f	0.65;R[ ;S@‡;TI"	0.65;	F;@;i/;o;
+	;o;;i/;is;o;;i/;iw;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;i/;o;
+	;o;;i/;iQ;o;;i/;ix;@
+;@;'@
+;@;Uo;$	;o;%;I");	T;;J;@;i/;o;
+	;o;;i/;iy;o;;i/;i{;@
+;@;'@
+;i/;o;
+	;@—;o;;i/;i{;@
+;@;'@
+;@;i/;o;
+	;@o;o;;i/;i{;@
+;@;'@
+;@o;$	;o;%;I"url("../../images/bg.jpg");	T;;J;@;i0;o;
+	;o;;i0;i	;o;;i0;i%;@
+;@;'@
+:@separator:
+comma;i-;o;
+	;o;;i-;i-;o;;i.;i$;@
+;@;'@
+;@;(o;);*{ ;+{ ;,0;-0;[ ;i-;o;
+	;o;;i-;i;o;;i1;i
+;@
+;@;@o;;;"[I"background-repeat;	T;o;$;o;%;I"%repeat,			no-repeat,			no-repeat;	T;;&;@;i2;o;
+	;o;;i2;i;o;;i2;i<;@
+;@;:i ;<;=;[ ;i2;o;
+	;o;;i2;i;o;;i2;i<;@
+;@;>o;
+	;@Þ;o;;i2;i;@
+;@;?o;
+	;o;;i2;i;@ß;@
+;@;@o;;;"[I"background-size;	T;o;$;o;%;I"!100px 100px,	cover,				cover;	T;;&;@;i3;o;
+	;o;;i3;i;o;;i3;i6;@
+;@;:i ;<;=;[ ;i3;o;
+	;o;;i3;i;o;;i3;i6;@
+;@;>o;
+	;@ï;o;;i3;i;@
+;@;?o;
+	;o;;i3;i;@ð;@
+;@;@o;;;"[I"background-position;	T;o;$;o;%;I"-top left,		center center,		bottom center;	T;;&;@;i4;o;
+	;o;;i4;i;o;;i4;iE;@
+;@;:i ;<;=;[ ;i4;o;
+	;o;;i4;i;o;;i4;iE;@
+;@;>o;
+	;@ ;o;;i4;i;@
+;@;?o;
+	;o;;i4;i;@;@
+;@;@o;;;"[I"background-attachment;	T;o;$;o;%;I"fixed,			fixed,				fixed;	T;;&;@;i5;o;
+	;o;;i5;i;o;;i5;i7;@
+;@;:i ;<;=;[ ;i5;o;
+	;o;;i5;i;o;;i5;i7;@
+;@;>o;
+	;@;o;;i5;i;@
+;@;?o;
+	;o;;i5;i;@;@
+;@;@o;.;/[I"&:after;	T;0o;1;2[o;3;2[o;4;2[o;A;B0;i7;'0o;E;F;G;"I"
+after;	T;H0;I0;i7;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;i7;'0;i7;'0;9o;
+	;o;;i7;i;o;;i7;i;@
+;@;:i ;[o;;;"[I"content;	T;o;$;o;%;I"'';	T;;&;@;i8;o;
+	;o;;i8;i;o;;i8;i;@
+;@;:i ;<;=;[ ;i8;o;
+	;o;;i8;i	;o;;i8;i;@
+;@;>o;
+	;@7;o;;i8;i;@
+;@;?o;
+	;o;;i8;i;@8;@
+;@;@o;;;"[I"display;	T;o;$;o;%;I"
+block;	T;;&;@;i9;o;
+	;o;;i9;i;o;;i9;i;@
+;@;:i ;<;=;[ ;i9;o;
+	;o;;i9;i	;o;;i9;i;@
+;@;>o;
+	;@H;o;;i9;i;@
+;@;?o;
+	;o;;i9;i;@I;@
+;@;@o;;;"[I"
+position;	T;o;$;o;%;I"
+fixed;	T;;&;@;i:;o;
+	;o;;i:;i;o;;i:;i;@
+;@;:i ;<;=;[ ;i:;o;
+	;o;;i:;i	;o;;i:;i;@
+;@;>o;
+	;@Y;o;;i:;i;@
+;@;?o;
+	;o;;i:;i;@Z;@
+;@;@o;;;"[I"top;	T;o;$;o;%;I"0;	T;;&;@;i;;o;
+	;o;;i;;i;o;;i;;i;@
+;@;:i ;<;=;[ ;i;;o;
+	;o;;i;;i	;o;;i;;i;@
+;@;>o;
+	;@j;o;;i;;i;@
+;@;?o;
+	;o;;i;;i;@k;@
+;@;@o;;;"[I"	left;	T;o;$;o;%;I"0;	T;;&;@;i<;o;
+	;o;;i<;i;o;;i<;i;@
+;@;:i ;<;=;[ ;i<;o;
+	;o;;i<;i	;o;;i<;i;@
+;@;>o;
+	;@{;o;;i<;i
+;@
+;@;?o;
+	;o;;i<;i;@|;@
+;@;@o;;;"[I"
+width;	T;o;$;o;%;I"	100%;	T;;&;@;i=;o;
+	;o;;i=;i;o;;i=;i;@
+;@;:i ;<;=;[ ;i=;o;
+	;o;;i=;i	;o;;i=;i;@
+;@;>o;
+	;@Œ;o;;i=;i;@
+;@;?o;
+	;o;;i=;i;@;@
+;@;@o;;;"[I"height;	T;o;$;o;%;I"inherit;	T;;&;@;i>;o;
+	;o;;i>;i;o;;i>;i;@
+;@;:i ;<;=;[ ;i>;o;
+	;o;;i>;i	;o;;i>;i;@
+;@;>o;
+	;@;o;;i>;i;@
+;@;?o;
+	;o;;i>;i;@ž;@
+;@;@o;;;"[I"opacity;	T;o;$;o;%;I"0;	T;;&;@;i?;o;
+	;o;;i?;i;o;;i?;i;@
+;@;:i ;<;=;[ ;i?;o;
+	;o;;i?;i	;o;;i?;i;@
+;@;>o;
+	;@®;o;;i?;i;@
+;@;?o;
+	;o;;i?;i;@¯;@
+;@;@o;;;"[I"z-index;	T;o;$;o;%;I"1;	T;;&;@;i@;o;
+	;o;;i@;i;o;;i@;i;@
+;@;:i ;<;=;[ ;i@;o;
+	;o;;i@;i	;o;;i@;i;@
+;@;>o;
+	;@¿;o;;i@;i;@
+;@;?o;
+	;o;;i@;i;@À;@
+;@;@o;;;"[I"background-color;	T;o;K;"I"
+_palette;	T;#[o;$	;o;%;I"bg;	T;;&;@;iB;o;
+	;o;;iB;i$;o;;iB;i&;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;iB;o;
+	;o;;iB;i;o;;iB;i';@
+;@;'@
+;@;:i ;<;=;[ ;iB;o;
+	;o;;iB;i	;o;;iB;i';@
+;@;>o;
+	;@Ù;o;;iB;i;@
+;@;?o;
+	;o;;iB;i;@Ú;@
+;@;@o;!;"I"vendor;	T;#[o;$	;o;%;I"background-image;	T;;J;@;iC;o;
+	;o;;iC;i;o;;iC;i+;@
+;@;'@
+o;L;M[o;$	;o;%;I"url("images/overlay.png");	T;;J;@;iD;o;
+	;o;;iD;i
+;o;;iD;i%;@
+;@;'@
+o;N;Oo;$	;o;%;I"linear-gradient(60deg, ;	T;;J;@;iE;o;
+	;o;;iE;i
+;o;;iE;i$;@
+;@;'@
+;Po;K;"I"transparentize;	T;#[o;K;"I"
+_palette;	T;#[o;$	;o;%;I"accent1;	T;;&;@;iE;o;
+	;o;;iE;i<;o;;iE;iC;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;iE;o;
+	;o;;iE;i3;o;;iE;iD;@
+;@;'@
+;@o;$	;o;Q
+;@…;R[ ;S@‡;TI"0.5;	F;@;iE;o;
+	;o;;iE;iF;o;;iE;iI;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;iE;o;
+	;o;;iE;i$;o;;iE;iJ;@
+;@;'@
+;@;Uo;N;Oo;$	;o;%;I"
+ 5%, ;	T;;J;@;iE;o;
+	;o;;iE;iK;o;;iE;iR;@
+;@;'@
+;Po;K;"I"transparentize;	T;#[o;K;"I"
+_palette;	T;#[o;$	;o;%;I"accent2;	T;;&;@;iE;o;
+	;o;;iE;ij;o;;iE;iq;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;iE;o;
+	;o;;iE;ia;o;;iE;ir;@
+;@;'@
+;@o;$	;o;Q
+;@­;R[ ;S@‡;TI"	0.65;	F;@;iE;o;
+	;o;;iE;it;o;;iE;ix;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;iE;o;
+	;o;;iE;iR;o;;iE;iy;@
+;@;'@
+;@;Uo;$	;o;%;I");	T;;J;@;iE;o;
+	;o;;iE;iz;o;;iE;i|;@
+;@;'@
+;iE;o;
+	;@;o;;iF;i	;@
+;@;'@
+;@;iE;o;
+	;@õ;o;;iF;i	;@
+;@;'@
+;@;V;W;iC;o;
+	;o;;iC;i.;o;;iD;i%;@
+;@;'@
+;@;(o;);*{ ;+{ ;,0;-0;[ ;iC;o;
+	;o;;iC;i	;o;;iF;i;@
+;@;@o;;;"[I"background-repeat;	T;o;$;o;%;I"repeat,			no-repeat;	T;;&;@;iG;o;
+	;o;;iG;i;o;;iG;i0;@
+;@;:i ;<;=;[ ;iG;o;
+	;o;;iG;i	;o;;iG;i0;@
+;@;>o;
+	;@[;o;;iG;i;@
+;@;?o;
+	;o;;iG;i;@\;@
+;@;@o;;;"[I"background-size;	T;o;$;o;%;I"100px 100px,	cover;	T;;&;@;iH;o;
+	;o;;iH;i;o;;iH;i-;@
+;@;:i ;<;=;[ ;iH;o;
+	;o;;iH;i	;o;;iH;i-;@
+;@;>o;
+	;@l;o;;iH;i;@
+;@;?o;
+	;o;;iH;i;@m;@
+;@;@o;;;"[I"background-position;	T;o;$;o;%;I"top left,		center center;	T;;&;@;iI;o;
+	;o;;iI;i;o;;iI;i6;@
+;@;:i ;<;=;[ ;iI;o;
+	;o;;iI;i	;o;;iI;i6;@
+;@;>o;
+	;@};o;;iI;i;@
+;@;?o;
+	;o;;iI;i;@~;@
+;@;@o;!;"I"vendor;	T;#[o;$	;o;%;I"transition;	T;;J;@;iK;o;
+	;o;;iK;i;o;;iK;i%;@
+;@;'@
+o;N;Oo;$	;o;%;I"
+opacity ;	T;;J;@;iK;o;
+	;o;;iK;i';o;;iK;i2;@
+;@;'@
+;Po;K;"I"_duration;	T;#[o;$	;o;%;I"bg;	T;;&;@;iK;o;
+	;o;;iK;i<;o;;iK;i>;@
+;@;'@
+;(o;);*{ ;+{ ;,0;-0;iK;o;
+	;o;;iK;i2;o;;iK;i?;@
+;@;'@
+;@;Uo;$	;o;%;I" ease-out;	T;;J;@;iK;o;
+	;o;;iK;i@;o;;iK;iJ;@
+;@;'@
+;iK;o;
+	;@‘;o;;iK;iJ;@
+;@;'@
+;@;(o;);*{ ;+{ ;,0;-0;[ ;iK;o;
+	;o;;iK;i	;o;;iK;iK;@
+;@;@;i7;o;
+	;@);o;;i7;i;@
+;@;@T;@o;.;/[I"&.is-loading;	T;0o;1;2[o;3;2[o;4;2[o;A;B0;iN;'0o;C;"I"is-loading;	T;iN;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;iN;'0;iN;'0;9o;
+	;o;;iN;i;o;;iN;i;@
+;@;:i ;[o;.;/[I"&:after;	T;0o;1;2[o;3;2[o;4;2[o;A;B0;iO;'0o;E;F;G;"I"
+after;	T;H0;I0;iO;'0;70;8o;;{ ;o;
+	;o;;i;i;o;;i;i
+;0;0;iO;'0;iO;'0;9o;
+	;o;;iO;i	;o;;iO;i;@
+;@;:i ;[o;;;"[I"opacity;	T;o;$;o;%;I"1;	T;;&;@;iP;o;
+	;o;;iP;i;o;;iP;i;@
+;@;:i ;<;=;[ ;iP;o;
+	;o;;iP;i
+;o;;iP;i;@
+;@;>o;
+	;@è;o;;iP;i;@
+;@;?o;
+	;o;;iP;i;@é;@
+;@;@;iO;o;
+	;@Ú;o;;iO;i;@
+;@;@T;@;iN;o;
+	;@Å;o;;iN;i;@
+;@;@T;@;i*;o;
+	;@+;o;;i*;i;@
+;@;@T;@;
+I"8@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Identity by HTML5 UP
+/// html5up.net | @n33co
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Basic */
+
+	// Ensures page width is always >=320px.
+		@include breakpoint(xsmall) {
+			html, body {
+				min-width: 320px;
+			}
+		}
+
+	body {
+
+		// Prevents animation/transition "flicker" on page load.
+		// Automatically added/removed by js/main.js.
+			&.is-loading {
+				*, *:before, *:after {
+					@include vendor('animation', 'none !important');
+					@include vendor('transition', 'none !important');
+				}
+			}
+
+	}
+
+	html {
+		height: 100%;
+	}
+
+	body {
+		height: 100%;
+		background-color: _palette(bg);
+		@include vendor('background-image', (
+			'url("images/overlay.png")',
+			'linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})',
+			'url("../../images/bg.jpg")'
+		));
+		background-repeat:		repeat,			no-repeat,			no-repeat;
+		background-size:		100px 100px,	cover,				cover;
+		background-position:	top left,		center center,		bottom center;
+		background-attachment:	fixed,			fixed,				fixed;
+
+		&:after {
+			content: '';
+			display: block;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: inherit;
+			opacity: 0;
+			z-index: 1;
+
+			background-color: _palette(bg);
+			@include vendor('background-image', (
+				'url("images/overlay.png")',
+				'linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})'
+			));
+			background-repeat:		repeat,			no-repeat;
+			background-size:		100px 100px,	cover;
+			background-position:	top left,		center center;
+
+			@include vendor('transition', 'opacity #{_duration(bg)} ease-out');
+		}
+
+		&.is-loading {
+			&:after {
+				opacity: 1;
+			}
+		}
+	};	T;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@T;@
