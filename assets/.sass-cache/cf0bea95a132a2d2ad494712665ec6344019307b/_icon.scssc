@@ -1,0 +1,96 @@
+3.4.13 (Selective Steve)
+92c7f0542de4f404b21237a1fd96943d6902a9be
+o:Sass::Tree::RootNode:@children[o:Sass::Tree::ImportNode:@imported_filenameI"../libs/vars:ET;[ :@template0:
+@linei:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i:@offseti:
+@end_poso;;i;i:
+@fileI"sass/components/_icon.scss;	F:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@same_name_warningso:Set:
+@hash{ :
+@options{ :@imported_file0o;;I"../libs/functions;	T;[ ;
+0;i;o;
+	;o;;i;i;o;;i;i!;@
+;@;@;0o;;I"../libs/mixins;	T;[ ;
+0;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@;0o:Sass::Tree::CommentNode
+:@value[I"•/*/
+ */ Identity by HTML5 UP
+ */ html5up.net | @n33co
+ */ Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ */ */;	T:
+@type:silent;[ ;i
+;@o;
+;[I"/* Icon */;	T;:normal;[ ;i;@o:Sass::Tree::RuleNode:
+@rule[I"
+.icon;	T:@parsed_ruleso:"Sass::Selector::CommaSequence:
+@members[o:Sass::Selector::Sequence;%[o:#Sass::Selector::SimpleSequence;%[o:Sass::Selector::Class:
+@nameI"	icon;	T;i:@filename0:
+@subject0:
+@sourceso;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;*0;i;*0:@selector_source_rangeo;
+	;o;;i;i;o;;i;i
+;@
+;@:
+@tabsi ;[	o:Sass::Tree::MixinNode;)I"	icon;	T:
+@args[ :@keywords{ :@splat0:@kwarg_splat0;[ ;i;o;
+	;o;;i;i;o;;i;i;@
+;@;@o:Sass::Tree::PropNode;)[I"
+position;	T;o: Sass::Script::Tree::Literal;o: Sass::Script::Value::String;I"
+relative;	T;:identifier;@;i;o;
+	;o;;i;i;o;;i;i;@
+;@;.i :@prop_syntax:new;[ ;i;o;
+	;o;;i;i;o;;i;i;@
+;@:@name_source_rangeo;
+	;@O;o;;i;i;@
+;@:@value_source_rangeo;
+	;o;;i;i;@P;@
+;@;@o;4;)[I"border-bottom;	T;o;5;o;6;I"	none;	T;;7;@;i;o;
+	;o;;i;i;o;;i;i;@
+;@;.i ;8;9;[ ;i;o;
+	;o;;i;i;o;;i;i;@
+;@;:o;
+	;@`;o;;i;i;@
+;@;;o;
+	;o;;i;i;@a;@
+;@;@o;!;"[I"
+> .label;	T;#o;$;%[o;&;%[I">;	To;';%[o;(;)I"
+label;	T;i;*0;+0;,o;;{ ;o;
+	;o;;i;i;o;;i;i;0;0;i;*0;i;*0;-o;
+	;o;;i;i;o;;i;i;@
+;@;.i ;[o;4;)[I"display;	T;o;5;o;6;I"	none;	T;;7;@;i;o;
+	;o;;i;i;o;;i;i;@
+;@;.i ;8;9;[ ;i;o;
+	;o;;i;i	;o;;i;i;@
+;@;:o;
+	;@;o;;i;i;@
+;@;;o;
+	;o;;i;i;@‚;@
+;@;@;i;o;
+	;@x;o;;i;i;@
+;@:@has_childrenT;@;i;o;
+	;@9;o;;i;i
+;@
+;@;<T;@;
+I"]@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Identity by HTML5 UP
+/// html5up.net | @n33co
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		position: relative;
+		border-bottom: none;
+
+		> .label {
+			display: none;
+		}
+	};	T;i;o;
+	;o;;i;i;o;;i;i;@
+;@;<T;@
