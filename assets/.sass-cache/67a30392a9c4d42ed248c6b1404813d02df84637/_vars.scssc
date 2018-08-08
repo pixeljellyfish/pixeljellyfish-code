@@ -1,0 +1,197 @@
+3.4.13 (Selective Steve)
+b0da6a5641885be9df661971cf0d81b8c8507b02
+o:Sass::Tree::RootNode:@children[o:Sass::Tree::CommentNode
+:@value[I"/* Misc. */:ET:
+@type:silent;[ :
+@linei:
+@options{ o:Sass::Tree::VariableNode
+:
+@nameI"	misc;	T:
+@expro:#Sass::Script::Tree::MapLiteral
+:@pairs[[o: Sass::Script::Tree::Literal	;o: Sass::Script::Value::String;I"z-index-base;	T;
+:identifier;
+@;i:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i:@offseti:
+@end_poso;;i;i:
+@fileI"sass/libs/_vars.scss;	F:@importero: Sass::Importers::Filesystem:
+@rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@real_rootI"G/srv/home/ajl/projects/HTML5 UP/templates/identity/src/html/assets;	T:@same_name_warningso:Set:
+@hash{ :@filename@o;	;o: Sass::Script::Value::Number
+;i':@numerator_units[ :@denominator_units[ :@originalI"
+10000;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@;i;o;	;o;;i;i;o;;i	;i;@;@;$@;
+@:
+@guarded0:@global0;[ ;i;o;	;o;;i;i;o;;i	;i;@;@;
+@o;
+;[I"/* Duration. */;	T;
+;;[ ;i;
+@o;
+;I"
+duration;	T;o;
+;[[o;	;o;;I"transition;	T;
+;;
+@;i
+;o;	;o;;i
+;i;o;;i
+;i;@;@;$@o;	;o;%
+;f0.2;&[I"s;	T;'[ ;(I"	0.2s;	F;
+@;i
+;o;	;o;;i
+;i;o;;i
+;i;@;@;$@[o;	;o;;I"bg;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i
+;@;@;$@o;	;o;%
+;f	1.75;&[I"s;	T;'[ ;(I"
+1.75s;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@[o;	;o;;I"	main;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;	;o;%
+;i;&[I"s;	T;'[ ;(I"1s;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@;i;o;	;o;;i;i;o;;i
+;i;@;@;$@;
+@;)0;*0;[ ;i;o;	;o;;i;i;o;;i;i;@;@;
+@o;
+;[I"/* Size. */;	T;
+;;[ ;i;
+@o;
+;I"	size;	T;o;
+;[
+[o;	;o;;I"border-radius;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;	;o;%
+;i	;&[I"px;	T;'[ ;(I"4px;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@[o;	;o;;I"border-width;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;	;o;%
+;i;&[I"px;	T;'[ ;(I"1px;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@[o;	;o;;I"element-height;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;	;o;%
+;f	2.75;&[I"em;	T;'[ ;(I"2.75em;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@[o;	;o;;I"element-margin;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;	;o;%
+;f1.5;&[I"em;	T;'[ ;(I"
+1.5em;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@[o;	;o;;I"letter-spacing;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;	;o;%
+;@=;&[I"em;	T;'[ ;(I"
+0.2em;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@;i;o;	;o;;i;i;o;;i;i;@;@;$@;
+@;)0;*0;[ ;i;o;	;o;;i;i;o;;i;i;@;@;
+@o;
+;[I"/* Font. */;	T;
+;;[ ;i;
+@o;
+;I"	font;	T;o;
+;[[o;	;o;;I"family;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o:$Sass::Script::Tree::ListLiteral:@elements[o;	;o;;I"Source Sans Pro;	T;
+:string;
+@;i;o;	;o;;i;i;o;;i;i%;@;@;$@o;	;o;;I"Helvetica;	T;
+;;
+@;i;o;	;o;;i;i';o;;i;i0;@;@;$@o;	;o;;I"sans-serif;	T;
+;;
+@;i;o;	;o;;i;i2;o;;i;i<;@;@;$@:@separator:
+comma;i;o;	;o;;i;i;o;;i;i%;@;@;$@;
+@[o;	;o;;I"family-fixed;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;+;,[o;	;o;;I"Courier New;	T;
+;-;
+@;i;o;	;o;;i;i;o;;i;i%;@;@;$@o;	;o;;I"monospace;	T;
+;;
+@;i;o;	;o;;i;i';o;;i;i0;@;@;$@;.;/;i;o;	;o;;i;i;o;;i;i%;@;@;$@;
+@[o;	;o;;I"weight;	T;
+;;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@o;	;o;%
+;i,;&[ ;'@ ;(I"300;	F;
+@;i;o;	;o;;i;i;o;;i;i;@;@;$@;i;o;	;o;;i;i;o;;i;i=;@;@;$@;
+@;)0;*0;[ ;i;o;	;o;;i;i;o;;i ;i;@;@;
+@o;
+;[I"/* Palette. */;	T;
+;;[ ;i";
+@o;
+;I"palette;	T;o;
+;[[o;	;o;;I"bg;	T;
+;;
+@;i$;o;	;o;;i$;i;o;;i$;i
+;@;@;$@o;	;o:Sass::Script::Value::Color	;0:@attrs{	:rediÿ:
+greeniÿ:	blueiÿ:
+alphai:@representationI"#ffffff;	T;
+@;i$;o;	;o;;i$;i;o;;i$;i;@;@;$@[o;	;o;;I"bg-alt;	T;
+;;
+@;i%;o;	;o;;i%;i;o;;i%;i;@;@;$@o;	;o;0	;0;1{	;2iá;3iß;4iè;5i;6I"#e1dfe8;	T;
+@;i%;o;	;o;;i%;i;o;;i%;i;@;@;$@[o;	;o;;I"fg;	T;
+;;
+@;i&;o;	;o;;i&;i;o;;i&;i
+;@;@;$@o;	;o;0	;0;1{	;2iF;3iT;4i\;5i;6I"#414f57;	T;
+@;i&;o;	;o;;i&;i;o;;i&;i;@;@;$@[o;	;o;;I"fg-bold;	T;
+;;
+@;i';o;	;o;;i';i;o;;i';i;@;@;$@o;	;o;0	;0;1{	;2i6;3iD;4iL;5i;6I"#313f47;	T;
+@;i';o;	;o;;i';i;o;;i';i;@;@;$@[o;	;o;;I"
+fg-light;	T;
+;;
+@;i(;o;	;o;;i(;i;o;;i(;i;@;@;$@o;	;o;0	;0;1{	;2if;3it;4i|;5i;6I"#616f77;	T;
+@;i(;o;	;o;;i(;i;o;;i(;i;@;@;$@[o;	;o;;I"border;	T;
+;;
+@;i);o;	;o;;i);i;o;;i);i;@;@;$@o: Sass::Script::Tree::Funcall;I"lighten;	T:
+@args[o;	;o;0	;0;1{	;2iº;3iÀ;4iÃ;5i;6I"#bac0c3;	T;
+@;i);o;	;o;;i);i;o;;i);i";@;@;$@o;	;o;%
+;i
+;&[ ;'@ ;(I"5;	F;
+@;i);o;	;o;;i);i$;o;;i);i%;@;@;$@:@keywordso:Sass::Util::NormalizedMap:@key_strings{ :	@map{ :@splat0:@kwarg_splat0;i);o;	;o;;i);i;o;;i);i&;@;@;$@;
+@[o;	;o;;I"accent1;	T;
+;;
+@;i*;o;	;o;;i*;i;o;;i*;i;@;@;$@o;	;o;0	;0;1{	;2iÿ;3i¥;4i–;5i;6I"#ffa596;	T;
+@;i*;o;	;o;;i*;i;o;;i*;i;@;@;$@[o;	;o;;I"accent2;	T;
+;;
+@;i+;o;	;o;;i+;i;o;;i+;i;@;@;$@o;	;o;0	;0;1{	;2i ;3iä;4iÿ;5i;6I"#00e4ff;	T;
+@;i+;o;	;o;;i+;i;o;;i+;i;@;@;$@[o;	;o;;I"highlight;	T;
+;;
+@;i,;o;	;o;;i,;i;o;;i,;i;@;@;$@o;7;I"darken;	T;8[o;	;o;0	;0;1{	;2iÿ;3iÁ;4iÐ;5i;6I"#ffc1d0;	T;
+@;i,;o;	;o;;i,;i;o;;i,;i#;@;@;$@o;	;o;%
+;i;&[ ;'@ ;(I"15;	F;
+@;i,;o;	;o;;i,;i%;o;;i,;i';@;@;$@;9o;:;;{ ;<{ ;=0;>0;i,;o;	;o;;i,;i;o;;i,;i(;@;@;$@;
+@;i#;o;	;o;;i#;i;o;;i$;i;@;@;$@;
+@;)0;*0;[ ;i#;o;	;o;;i#;i;o;;i-;i;@;@;
+@:@templateI"œ// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		transition:			0.2s,
+		bg:					1.75s,
+		main:				1s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		border-width:		1px,
+		element-height:		2.75em,
+		element-margin:		1.5em,
+		letter-spacing:		0.2em
+	);
+
+// Font.
+	$font: (
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300
+	);
+
+// Palette.
+	$palette: (
+		bg:					#ffffff,
+		bg-alt:				#e1dfe8,
+		fg:					#414f57,
+		fg-bold:			#313f47,
+		fg-light:			#616f77,
+		border:				lighten(#bac0c3, 5),
+		accent1:			#ffa596,
+		accent2:			#00e4ff,
+		highlight:			darken(#ffc1d0, 15)
+	);;	T;i;o;	;o;;i;i;o;;i;i;@;@:@has_childrenT;
+@
