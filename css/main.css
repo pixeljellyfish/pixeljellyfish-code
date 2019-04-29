@@ -38,7 +38,7 @@ header{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #AARRGGBB;
+background: rgba(0, 0, 0, 0);
   color: black;
 }
 
