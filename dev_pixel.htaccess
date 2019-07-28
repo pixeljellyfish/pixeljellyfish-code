@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /index.html HTTP [NC]
+RewriteRule (.*)index.html$ /$1 [R=301,L]
