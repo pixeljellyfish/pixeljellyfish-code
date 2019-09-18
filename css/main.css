@@ -33,6 +33,59 @@ body{
   padding-right: 20px;
   padding-bottom: 20px;
 }
+    body.darkclass h3,
+    body.darkclass a {
+        background-color: black;
+        color: white;
+    }
+
+.rightNavContainer {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+    .rightNavContainer a {
+        text-decoration: none;
+        padding-right: 20px
+    }
+
+        .rightNavContainer a:hover {
+            text-decoration: underline
+        }
+
+.themeToggle {
+    cursor: pointer;
+    fill: var(--text-color);
+    border-left: solid var(--text-color) 1px;
+    padding-left: 18px;
+    vertical-align: middle;
+    display: inline-block
+}
+
+@media screen and (max-width:900px) {
+    .rightNavContainer a {
+        padding-right: 10px
+    }
+
+    .themeToggle {
+        padding-left: 13px;
+    }
+}
+
+#darkMode {
+    --bg-color: #292a2d;
+    --text-color: #E1C564;
+    --navbar-bg-color: #252627;
+    --hover-bg-color: #4a4c4e
+}
+
+#lightMode {
+    --bg-color: #fff;
+    --text-color: #008080;
+    --navbar-bg-color: #ededed;
+    --hover-bg-color: #dddbdb
+}
 
 header{
   background-color: #0d47a1;
@@ -45,6 +98,7 @@ header{
   padding-right: 20px;
   padding-bottom: 20px;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
