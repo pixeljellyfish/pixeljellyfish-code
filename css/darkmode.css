@@ -9,8 +9,7 @@
 .dm-default {
 	background:#111525!important
 }
-.dm-block {
-}
+
 .dm-menubar {
 	border-bottom:solid 1px rgba(255,255,255,.08)!important
 }
@@ -77,12 +76,7 @@
 	border-style:solid;
 	border-color: rgba(255, 255, 255, .08);
 }
-.dm-navsidebar-title {
-	background:#252d68!important
-}
-.dm-navsidebar-txt {
-	color:#fff!important
-}
+
 .dm-block-search {
 	border-bottom:1px solid #111525!important;
 	background:#111525
