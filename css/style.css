@@ -1,12 +1,11 @@
 body{
-  background-color: #ff1744;
   height: 70px;
   border: 50px 50px;
-  border: solid #ff1744;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  color: #ff9e00;
 }
 
 header{
@@ -19,5 +18,14 @@ header{
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+}
+
+html {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.555),
+      rgba(0, 0, 0, 0.555)
+    ),
+    url(../images/background/ios-13-red-white.jpg);
 }
 

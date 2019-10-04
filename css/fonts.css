@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'BwQuintaPro-BlackItalic';
+  src: url('BwQuintaPro-BlackItalic.eot?#iefix') format('embedded-opentype'),  url('BwQuintaPro-BlackItalic.otf')  format('opentype'),
+	     url('BwQuintaPro-BlackItalic.woff') format('woff'), url('BwQuintaPro-BlackItalic.ttf')  format('truetype'), url('BwQuintaPro-BlackItalic.svg#BwQuintaPro-BlackItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
