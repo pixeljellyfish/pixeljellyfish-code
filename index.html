@@ -33,20 +33,8 @@
 
                            <a href="https://discordapp.com/api/oauth2/authorize?client_id=624239661384073227&redirect_uri=https%3A%2F%2Fpixeljellyfish.xyz%2Fdiscord.html&response_type=code&scope=identify">Discord Log-in</a>
                            
-                           <script>
-                               const DiscordOauth2 = require("discord-oauth2");
-                               const oauth = new DiscordOauth2();
-
-                               const clientID = "496357551512441271";
-                               const client_secret = "cKlFh_71_OXfGVN1hmArPnL8SfKF41kA";
-                               const access_token = "2qRZcUqUa9816RVnnEKRpzOL2CvHBgF";
-
-                               const Base64 = require("js-base64").base64;
-                              
-                               const credentials = Base64(`${clientID}:${client_secret}`);
-
-                               oauth.revokeToken(access_token, credentials).then(console.log); // {}
-                           </script>
+<script src="discord/server.js"></script>
+                        
                 </head>       
             <body>                   
         <style>

@@ -20,4 +20,15 @@ oauth.tokenRequest({
         }
 */
 
+      const DiscordOauth2 = require("discord-oauth2");
+      const oauth = new DiscordOauth2();
 
+      const clientID = "496357551512441271";
+      const client_secret = "cKlFh_71_OXfGVN1hmArPnL8SfKF41kA";
+      const access_token = "2qRZcUqUa9816RVnnEKRpzOL2CvHBgF";
+
+      const Base64 = require("js-base64").base64;
+
+      const credentials = Base64(`${clientID}:${client_secret}`);
+
+      oauth.revokeToken(access_token, credentials).then(console.log); // {}
