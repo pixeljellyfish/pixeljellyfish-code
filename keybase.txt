@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/pixeljellyfish
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.pixeljellyfish.xyz
+  * I am pixeljellyfish (https://keybase.io/pixeljellyfish) on keybase.
+  * I have a public key ASDXu9Gr9FR6mySI3Cc_xI_e5A6FNvKTNmctUxjFXZr7JAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d7bbd1abf4547a9b2488dc273fc48fdee40e8536f29336672d5318c55d9afb240a",
+      "host": "keybase.io",
+      "kid": "0120d7bbd1abf4547a9b2488dc273fc48fdee40e8536f29336672d5318c55d9afb240a",
+      "uid": "1d76d945b39bd1e0511fa8136f476119",
+      "username": "pixeljellyfish"
+    },
+    "merkle_root": {
+      "ctime": 1573385114,
+      "hash": "2ca68824b0fa897e0787e65050bc6786fa766fe03fde6c9f4a76c7b44dead46e8e57feaa3d0b8d61c499fc44838c6f8b9539eeb17687abf28a0a0317c0aeb96f",
+      "hash_meta": "7ead35011e4126d772bce2d3db70805cfa66a2fb5069e10d3f145edbd370228f",
+      "seqno": 9065606
+    },
+    "service": {
+      "entropy": "UnByiBpdGkf9Me7unjLx9niI",
+      "hostname": "www.pixeljellyfish.xyz",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1573385156,
+  "expire_in": 504576000,
+  "prev": "b6ad4113be0c010b2654970159febe07222df415e4812fad1e3b5197a397378f",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg17vRq/RUepskiNwnP8SP3uQOhTbykzZnLVMYxV2a+yQKp3BheWxvYWTESpcCCsQgtq1BE74MAQsmVJcBWf6+ByIt9BXkgS+tHjtRl6OXN4/EIOFU2R9CsrkxLyMFSX+j8yp67GAjhtaO8TwpK7/GLANwAgHCo3NpZ8RAPdeXtQg0wtEkNmWjROkLwEokmJFM5HVkcWBfSkxMlrV4I7telnLx6NoX3973uv/3L4o+v6V2XAo0b2hyLV2GC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIWzmEgj+DUWzL59oVuCy75MknradYeii01KW5smRDlMo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pixeljellyfish
+
+==================================================================
