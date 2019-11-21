@@ -12,12 +12,15 @@ body{
 
 
 html {
+  color: #D4B44A;
   background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.555),
       rgba(0, 0, 0, 0.555)
     ),
     url(../images/background/ios-13-red-white.jpg);
+    
+    
 }
 
 * {
@@ -70,4 +73,12 @@ h1 {
   .column {
     width: 100%;
   }
+}
+
+.td{
+  font-style: oblique;
+}
+
+.footer{
+padding-left: 710px;
 }
