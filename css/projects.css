@@ -151,13 +151,14 @@ h2 {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     color: #D4B44A;
+    text-align:center;
 }
 
 .card-content {
     padding: .25rem 1.25rem;
     flex: 1 1 auto;
     color: #D4B44A;
-    
+    text-align: center;
 }
 
 h4 {
@@ -167,7 +168,7 @@ h4 {
 }
 
 .job-title {
-    float: right;
+    text-align:center;
 }
 
 /*PROJECTS*/
@@ -219,4 +220,8 @@ h4 {
 
 .white-text {
     color: #D4B44A;
+}
+
+.footer {
+    padding-left: 710px;
 }
