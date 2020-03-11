@@ -13,14 +13,16 @@ body{
 
 html {
   color: #D4B44A;
-  background-image: 
+  background: 
     linear-gradient(
       rgba(0, 0, 0, 0.555),
       rgba(0, 0, 0, 0.555)
     ),
-    url(../images/background/ios-13-red-white.jpg);
-    
-    
+url(../images/background/ios-13-red-white.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 * {
@@ -81,4 +83,14 @@ h1 {
 
 .footer{
 padding-left: 710px;
+}
+
+.jailbreak-images {
+  width: 70px;
+  height: 70px;
+}
+
+.th{
+text-align: center;
+column-count: 1;
 }
