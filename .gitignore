@@ -2,6 +2,7 @@
 ./github
 ./vscode
 ./vs
+.DS_Store
 
 # Logs
 logs
