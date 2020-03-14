@@ -31,10 +31,6 @@
 Gray: #8e8e93
 */
 
-html {
-    font-family: "SF UI Display Medium";
-    width: auto;
-}
 
 div {
     display: block;
@@ -47,18 +43,18 @@ a {
     -o-transition: all 300ms cubic-bezier(0.505, 0.005, 0.250, 1.000);
     transition: all 300ms cubic-bezier(0.505, 0.005, 0.250, 1.000);
     /* custom */
-    color: #8e8e93;
+    color: #4e2d0b;
 }
 
 a:hover {
-    color: #8080ff;
+    color: #D4B44A;
 }
 
 button {
     color: #ffffff;
     outline: none;
     padding: 11px 16px;
-    background-color: #8080ff;
+    background-color: #D4B44A;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -184,65 +180,6 @@ section h3 {
 section h2:hover,
 section h3:hover {
     transform: scale(1.05);
-}
-
-.nav-container {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 10%;
-    letter-spacing: 3px;
-    width: auto;
-    height: 75px;
-    background-color: rgba(236, 238, 255, 0.95);
-    z-index: 99;
-    position: sticky;
-    top: 0;
-}
-
-.nav__links li {
-    display: inline-flex;
-    padding: 0px 1vw;
-}
-
-.nav__links li {
-    font-family: "SF UI Display Bold";
-}
-
-.nav__links {
-    display: flex;
-    list-style: none;
-    margin: 0 13vw;
-}
-
-#home {
-    display: block;
-}
-
-#home h1 {
-    padding-top: 4vw;
-}
-
-#home h3 {
-    text-align: center;
-}
-
-#about {
-    background-color: #ECEEFF;
-}
-
-#features {
-    background-color: black;
-}
-
-#features h2,
-#features p {
-    color: white;
-}
-
-#performance {
-    background-color: #ECEEFF;
 }
 
 #logo {

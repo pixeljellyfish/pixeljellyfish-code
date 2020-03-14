@@ -94,3 +94,14 @@ padding-left: 710px;
 text-align: center;
 column-count: 1;
 }
+
+#Logo {
+  width: 180px;
+  border-radius: 30%;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#Logo:hover {
+  opacity: 80%;
+}
