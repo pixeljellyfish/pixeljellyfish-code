@@ -1,4 +1,4 @@
-body{
+body {
   height: 70px;
   border: 50px 50px;
   padding-top: 20px;
@@ -13,16 +13,12 @@ body{
 
 html {
   color: #D4B44A;
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.555),
-      rgba(0, 0, 0, 0.555)
-    ),
-url(../images/background/ios-13-red-white.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.555),
+      rgba(0, 0, 0, 0.555)),
+    url(../images/background/ios-13-red-white.jpg);
+
+
 }
 
 * {
@@ -36,7 +32,6 @@ url(../images/background/ios-13-red-white.jpg) no-repeat center center fixed;
 }
 
 h1 {
-  font-size: 50px;
   word-break: break-all;
 }
 
@@ -46,7 +41,7 @@ h1 {
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
-.row > .column {
+.row>.column {
   padding: 8px;
 }
 
@@ -63,6 +58,10 @@ h1 {
   clear: both;
 }
 
+.table {
+  color: rgb(0, 0, 0);
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -77,12 +76,11 @@ h1 {
   }
 }
 
-.td{
+.td {
   font-style: oblique;
 }
 
-.footer{
-  text-align: center;
+.footer {
   padding-left: 710px;
 }
 
