@@ -82,7 +82,8 @@ h1 {
 }
 
 .footer{
-padding-left: 710px;
+  text-align: center;
+  padding-left: 710px;
 }
 
 .jailbreak-images {
@@ -91,8 +92,8 @@ padding-left: 710px;
 }
 
 .th{
-text-align: center;
-column-count: 1;
+  text-align: center;
+  column-count: 1;
 }
 
 #Logo {

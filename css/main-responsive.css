@@ -1,32 +1,3 @@
-@font-face {
-    font-family: 'SF UI Display Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Light'), url('../fonts/sf-ui-display-light-58646b33e0551.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SF UI Display Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Medium'), url('../fonts/sf-ui-display-medium-58646be638f96.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SF UI Display Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Bold'), url('../fonts/sf-ui-display-bold-58646a511e3d9.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SF UI Display Heavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Heavy'), url('../fonts/sf-ui-display-heavy-586470160b9e5.woff') format('woff');
-}
-
-
 /*
 Gray: #8e8e93
 */
