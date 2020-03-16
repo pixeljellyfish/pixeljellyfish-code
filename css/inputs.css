@@ -8,7 +8,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
     -webkit-text-fill-color: #ffffff !important;
-    -webkit-box-shadow: 0 0 0 50px #8080ff inset;
+    -webkit-box-shadow: 0 0 0 50px #ffa500 inset;
 }
 
 .big-button {
@@ -120,7 +120,7 @@ select:-webkit-autofill:focus {
 }
 
 .input__label--jiro::before {
-    border-top: 2px solid #8080ff;
+    border-top: 2px solid #ffa500;
     -webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
     transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
     -webkit-transition-delay: 0.3s;
@@ -129,7 +129,7 @@ select:-webkit-autofill:focus {
 
 .input__label--jiro::after {
     z-index: -1;
-    background: #8080ff;
+    background: #ffa500;
     -webkit-transform: scale3d(1, 0, 1);
     transform: scale3d(1, 0, 1);
     -webkit-transform-origin: 50% 0%;
