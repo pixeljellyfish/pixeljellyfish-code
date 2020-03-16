@@ -77,9 +77,6 @@ h1 {
   font-style: oblique;
 }
 
-.footer {
-  padding-left: 710px;
-}
 
 .jailbreak-images {
   width: 70px;
@@ -102,6 +99,17 @@ h1 {
   opacity: 80%;
 }
 
-#home {
+.account-text {
+  color: #ffffff;
+}
 
+.footer {
+  padding-left: 710px;
+}
+
+.thanks {
+  text-align: center;
+}
+.footer-icons {
+	align-content:center;
 }
