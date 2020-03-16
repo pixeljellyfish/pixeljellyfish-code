@@ -164,13 +164,13 @@ section h3:hover {
     opacity: 80%;
 }
 
-    .big-button button {
-        padding: 20px 35px;
-    }
+.big-button button {
+    padding: 20px 35px;
+}
 
-    section {
-        padding-top: 10vh;
-    }
+section {
+    padding-top: 10vh;
+}
 }
 
 @media screen and (max-width: 1050px) {
