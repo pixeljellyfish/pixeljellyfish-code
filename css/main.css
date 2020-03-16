@@ -10,15 +10,12 @@ body {
 }
 
 
-
 html {
-  color: #D4B44A;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.555),
-      rgba(0, 0, 0, 0.555)),
-    url(../images/background/ios-13-red-white.jpg);
-
-
+  background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)), url(../images/background/ios-13-red-white.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 * {
@@ -103,4 +100,8 @@ h1 {
 
 #Logo:hover {
   opacity: 80%;
+}
+
+#home {
+
 }
