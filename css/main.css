@@ -12,9 +12,6 @@ body {
 
 html {
   background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)), url(../images/background/ios-13-red-white.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -93,10 +90,6 @@ h1 {
   border-radius: 30%;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-}
-
-#Logo:hover {
-  opacity: 80%;
 }
 
 .account-text {

@@ -1,7 +1,7 @@
 #github
-./github
-./vscode
-./vs
+.github/
+.vscode/
+.vs/
 .DS_Store
 
 # Logs
