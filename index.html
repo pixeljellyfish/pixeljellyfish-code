@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="css/main-responsive.css">
 
+    <link rel="stylesheet" href="css/filter.css">
+
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,58 +46,37 @@
 </head>
 
 <body>
-        <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
 
-        th,
-        td {
-            padding: 5px;
-        }
-    </style>
+<div class="projects">
+    <section class="filter">
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all </button>
+            <button class="btn" onclick="filterSelection('tweaks')"> Tweaks </button>
+            <button class="btn" onclick="filterSelection('programs')"> Programs </button>
+            <button class="btn" onclick="filterSelection('apps')"> Apps </button>
+        </div>
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column tweaks">
+                <div class="content">
+                    <img src="assets/images/tweak_images/c0mebackf0lders.jpg" alt="c0mebackf0lders" style="width:70px">
+                    <h4>C0meBackF0lders</h4>
+                    <p>folders displayed permanently on home screen.</p>
+                </div>
+            </div>
+            <div class="column tweaks">
+                <div class="content">
+                    <img src="assets/images/tweak_images/particletrail.png" alt="particletrail" style="width:70px">
+                    <h4>Particle-Trail</h4>
+                    <p>A 3D Particle Trail System Wide.</p>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+    </section>
+</div>
 
-    <table style="width:100%">
-        <tr>
-            <th>Icon</th>
-            <th>Apps/Programs</th>
-            <th>Last Updated</th>
-            <th>OS Supported</th>
-            <th>Links</th>
-        </tr>
-
-        <tr>
-            <td><img class="jailbreak-images" src="images/projects-images/particle-trail/particletrail11.png"></img>
-            </td>
-            <td>Windows Particle Trail</td>
-            <td>21/12/2017</td>
-            <td>Windows</td>
-            <td><a href="" class="button">Windows Particle Trail</a>
-            </td>
-        </tr>
-
-        <!-- <tr>
-            <td><img class="jailbreak-images" src=""></img></td>
-            <td>Steam Account Manager (SAM)</td>
-            <td>13/05/2019</td>
-            <td>Windows</td>
-            <td><a href="" class="button"></a>
-        </tr> -->
-
-        <tr>
-            <td><img class="jailbreak-images" src=""></img></td>
-            <td>Twitch Light Theme</td>
-            <td>13/12/2019</td>
-            <td>Windows</td>
-            <td><a href="" class="button"></a>
-        </tr>
-
-    </table>
-
-    <p>Special Thanks To <a href="https://twitter.com/cr4ptic">Cr4ptic</a> In Assistance With Developing The Website!
+    <p>Special Thanks To <a href="https://twitter.com/cr4ptic">Cr4ptic</a> In Assistance With Developing The Website!</p>
 
     <script src="https://d33wubrfki0l68.cloudfront.net/bundles/362b15d1e19bf13d03c8947df3fe13f915aae569.js"></script>
 
@@ -106,7 +87,7 @@
     <script src="js/disable-f12.js"></script>
 <footer class="footer">
         <p class="footer-text">Copyright &copy;2021 by pixeljellyfish.xyz</p>
-            </div>
+            <div>
                 <div class="col-lg-4 col-lg-offset-4 col-xs-12">
                     <div class="pull-right">
                         <a href="https://github.com/devpixel12"><i class="social-media"><img0 src="images/social-media-icons/github.png"></i></a>
@@ -119,7 +100,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
 </body>
 </html>
