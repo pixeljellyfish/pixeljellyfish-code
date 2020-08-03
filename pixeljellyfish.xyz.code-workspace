@@ -5,6 +5,11 @@
 		}
 	],
 	"settings": {
-		"files.autoSaveDelay": 2
+		"files.autoSaveDelay": 2,
+		"cSpell.words": [
+			"offical",
+			"partical",
+			"topnav"
+		]
 	}
 }
