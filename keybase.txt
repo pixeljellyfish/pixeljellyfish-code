@@ -4,7 +4,7 @@ https://keybase.io/pixeljellyfish
 
 I hereby claim:
 
-  * I am an admin of http://www.pixeljellyfish.xyz
+  * I am an admin of https://www.pixeljellyfish.codes
   * I am pixeljellyfish (https://keybase.io/pixeljellyfish) on keybase.
   * I have a public key ASDXu9Gr9FR6mySI3Cc_xI_e5A6FNvKTNmctUxjFXZr7JAo
 
